@@ -1,0 +1,26 @@
+# adb_automatic
+
+Herramienta en Python para conectarse a un dispositivo Android por ADB usando IP o USB.
+
+## Requisitos
+- Python 3
+- `adb.exe` dentro de:
+  `platform-tools-latest-windows/platform-tools/adb.exe`
+
+## Uso
+1. Ejecuta `ABD_IP.py`
+2. Ingresa la IP del dispositivo
+3. Si no escribes puerto, se usa `5555`
+
+## Ejemplos
+- `192.168.1.50`
+- `192.168.1.50:5555`
+
+## Comandos útiles
+- `help`
+- `devices`
+- `reconnect`
+- `salir`
+
+## Nota
+Si aparece un error de conexión, verifica que la depuración por red esté activada y que el dispositivo sea accesible desde tu red.
